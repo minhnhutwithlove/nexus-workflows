@@ -1,11 +1,11 @@
 [
   {
-    "id": "me_va_be",
-    "name": "mẹ và bé",
-    "description": "Người mẫu cầm sản phẩm review thời trang trẻ em",
-    "version": "1.0.0",
+    "id": "review_thoi_trang_tre_em",
+    "name": "review thời trang trẻ em",
+    "description": "Thời trang trẻ em dạng người mẫu nữ cầm sản phẩm review\nAI tạo kịch bản , VEO3 , 3CLIP",
+    "version": "1.0.1",
     "tags": [
-      "Review thời trang trẻ em"
+      "Review"
     ]
   }
 ]
