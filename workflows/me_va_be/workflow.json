@@ -1,0 +1,325 @@
+{
+  "name": "mẹ và bé",
+  "version": "1.0.0",
+  "storeId": "me_va_be",
+  "nodes": [
+    {
+      "id": "n1777558782991_88w1",
+      "type": "prompt",
+      "x": 80.85092639838916,
+      "y": -555.841219062686,
+      "data": {
+        "text": "Using Image 1 as the model reference and Image 2 as the product reference:\n\nReplace ALL clothing with the exact outfit shown in Image 2, applied consistently across three areas:\n\nThe outfit worn by the model: Scaled to adult size, maintaining the exact design, fabric, and color from Image 2.\n\nThe clothing on the hanger she is holding: The exact children's size and design from Image 2.\n\nThe background: An indoor clothing boutique with wooden shelving units. Crucially, all dresses hanging on the racks must be the exact same small children's size as shown in Image 2, neatly arranged, creating a uniform look.\n\nTechnical Requirements:\n\nConsistency: No variations in size on the background racks; every piece must look identical to the child-sized product in Image 2.\n\nModel Integrity: Keep the model's face, hair, pose, and skin tone exactly the same as Image 1.\n\nEnvironment: No text, no brand signs, no logos anywhere.\n\nLighting: Soft neutral daylight, clean white balance, no yellow or amber tint, high clarity, true-to-life colors.\n\nComposition: Full body shot, model standing."
+      }
+    },
+    {
+      "id": "n1777559152421_q87m",
+      "type": "prompt",
+      "x": 754.8022039406086,
+      "y": 501.8077061942241,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_story.clips[2].visual_prompt}}\n\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang phục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động tương tác được mô tả để đồng bộ với lời thoại. Bố cục khung hình sạch hoàn toàn, không có bất kỳ yếu tố đồ họa nào chèn lên).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_story.clips[2].dialogue}}\"\n\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn với lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n\nGiới tính: Nữ, 22 tuổi\n\nVùng miền: Giọng Miền Nam tự nhiên, gần gũi\n\nTông giọng: Ấm áp, hồ hởi, tươi vui\n\nTốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI (NEGATIVE PROMPTS):\n\nKHÔNG CHỮ (NO TEXT): Tuyệt đối không hiển thị văn bản, chữ viết, phụ đề, caption hay watermark dưới mọi hình thức.\n\nKHÔNG GIAO DIỆN (NO UI/OVERLAYS): Không có lớp phủ đồ họa, không giỏ hàng, không nút bấm, không các icon TikTok hay thanh tiến trình.\n\nKHÔNG THẢ MÓC: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, bộ trang phục trên móc hiển thị rõ ràng, không bị che khuất.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên.\n\nChuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). Móc áo giữ ổn định, không lắc lư. Khung hình chuẩn Cinematic Realistic, không nhiễu hạt."
+      }
+    },
+    {
+      "id": "n1777558832152_0ley",
+      "type": "create-vid",
+      "x": 1388.1776443648484,
+      "y": 69.87986772348003,
+      "data": {
+        "model": "Veo 3.1 - Fast",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s"
+      }
+    },
+    {
+      "id": "n1777559174729_vhal",
+      "type": "create-vid",
+      "x": 1397.4976431070552,
+      "y": 633.2034398652156,
+      "data": {
+        "model": "Veo 3.1 - Fast",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s"
+      }
+    },
+    {
+      "id": "n1777559523973_igem",
+      "type": "merge-vid",
+      "x": 1972.7289721136924,
+      "y": 369.5607373791954,
+      "data": {
+        "effect": "Mờ dần"
+      }
+    },
+    {
+      "id": "n1777559538373_s41k",
+      "type": "review",
+      "x": 2276.3243587006327,
+      "y": 368.1562026001755,
+      "data": {}
+    },
+    {
+      "id": "n1777559131138_e10m",
+      "type": "prompt",
+      "x": 757.3772184114796,
+      "y": 273.62795868588125,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_story.clips[1].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_story.clips[1].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư."
+      }
+    },
+    {
+      "id": "n1777559223650_ccvd",
+      "type": "ref-img",
+      "x": -276.8998594335692,
+      "y": -508.93540690986543,
+      "data": {
+        "path": "C:\\Users\\admin\\OneDrive\\TIK TOK ALL\\NEXUS AI STUDIO\\tay_thả_lỏng_202604192107.png",
+        "simpleView": {
+          "enabled": true,
+          "label": "Người mẫu",
+          "field": "path",
+          "order": 1
+        }
+      }
+    },
+    {
+      "id": "n1777558689610_h3nx",
+      "type": "ref-img",
+      "x": -288.3443250643483,
+      "y": -153.48808674010826,
+      "data": {
+        "path": "",
+        "simpleView": {
+          "enabled": true,
+          "label": "Trang phục cần bán",
+          "field": "path",
+          "order": 2
+        }
+      }
+    },
+    {
+      "id": "n1777559052560_v4d8",
+      "type": "create-vid",
+      "x": 1392.6683805674897,
+      "y": 351.8805092905145,
+      "data": {
+        "model": "Veo 3.1 - Fast",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s"
+      }
+    },
+    {
+      "id": "n1777558847811_m7o7",
+      "type": "prompt",
+      "x": 760.7566136296228,
+      "y": 54.22121124481916,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_story.clips[0].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_story.clips[0].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư.",
+        "simpleView": {
+          "enabled": false,
+          "label": "adasda",
+          "field": "text",
+          "order": 3
+        }
+      }
+    },
+    {
+      "id": "n1777559109525_q0a9",
+      "type": "review",
+      "x": 766.7923108212857,
+      "y": -170.7145746527391,
+      "data": {}
+    },
+    {
+      "id": "n1777558612845_mizu",
+      "type": "ai-analyze",
+      "x": 57.96109682905103,
+      "y": 158.49889524720274,
+      "data": {
+        "gemsUrl": "https://gemini.google.com/gem/1uL22QoSmRmnm8yM67hzvuvbBI-I2S54z?usp=sharing",
+        "useProductUrl": true,
+        "productUrl": "",
+        "scenario": "Task ID: {{batch_name}}\nLink sản phẩm: {{product_url}}",
+        "jsonSample": "{\n  \"id\": \"\",\n  \"product\": {\n    \"name\": \"\",\n    \"cart_name\": \"\"\n  },\n  \"video_story\": {\n    \"clip_count\": 0,\n    \"clips\": [\n      {\n        \"visual_prompt\": \"\",\n        \"dialogue\": \"\"\n      },\n      {\n        \"visual_prompt\": \"\",\n        \"dialogue\": \"\"\n      },\n      {\n        \"visual_prompt\": \"\",\n        \"dialogue\": \"\"\n      }\n    ]\n  },\n  \"hashtags\": \"\"\n}",
+        "profileId": "veo_1777618784134",
+        "simpleView": {
+          "enabled": true,
+          "label": "Link sản phẩm",
+          "field": "productUrl",
+          "order": 3
+        }
+      }
+    },
+    {
+      "id": "n1777558812544_5ufm",
+      "type": "create-img",
+      "x": 418.2575936026693,
+      "y": -269.14132244299424,
+      "data": {
+        "model": "Banana Pro",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "1K"
+      }
+    },
+    {
+      "id": "n1777777247341_eeby",
+      "type": "compare",
+      "x": 713.6043161599998,
+      "y": -505.47904511999997,
+      "data": {
+        "label1": "Trang phục gốc",
+        "label2": "Kết quả"
+      }
+    }
+  ],
+  "wires": [
+    {
+      "id": "w1777558694449",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1777558612845_mizu",
+      "toPort": "img"
+    },
+    {
+      "id": "w1777558817114",
+      "fromNode": "n1777558782991_88w1",
+      "fromPort": "prompt",
+      "toNode": "n1777558812544_5ufm",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777558853179",
+      "fromNode": "n1777558612845_mizu",
+      "fromPort": "data",
+      "toNode": "n1777558847811_m7o7",
+      "toPort": "vars"
+    },
+    {
+      "id": "w1777558987468",
+      "fromNode": "n1777558847811_m7o7",
+      "fromPort": "prompt",
+      "toNode": "n1777558832152_0ley",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777559120283",
+      "fromNode": "n1777559109525_q0a9",
+      "fromPort": "output",
+      "toNode": "n1777558832152_0ley",
+      "toPort": "imgStart"
+    },
+    {
+      "id": "w1777559126291",
+      "fromNode": "n1777559109525_q0a9",
+      "fromPort": "output",
+      "toNode": "n1777559052560_v4d8",
+      "toPort": "imgStart"
+    },
+    {
+      "id": "w1777559137636",
+      "fromNode": "n1777558612845_mizu",
+      "fromPort": "data",
+      "toNode": "n1777559131138_e10m",
+      "toPort": "vars"
+    },
+    {
+      "id": "w1777559150196",
+      "fromNode": "n1777559131138_e10m",
+      "fromPort": "prompt",
+      "toNode": "n1777559052560_v4d8",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777559164950",
+      "fromNode": "n1777558612845_mizu",
+      "fromPort": "data",
+      "toNode": "n1777559152421_q87m",
+      "toPort": "vars"
+    },
+    {
+      "id": "w1777559179237",
+      "fromNode": "n1777559152421_q87m",
+      "fromPort": "prompt",
+      "toNode": "n1777559174729_vhal",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777559185214",
+      "fromNode": "n1777559109525_q0a9",
+      "fromPort": "output",
+      "toNode": "n1777559174729_vhal",
+      "toPort": "imgStart"
+    },
+    {
+      "id": "w1777559362349",
+      "fromNode": "n1777559223650_ccvd",
+      "fromPort": "img",
+      "toNode": "n1777558812544_5ufm",
+      "toPort": "ref1"
+    },
+    {
+      "id": "w1777559378601",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1777558812544_5ufm",
+      "toPort": "ref2"
+    },
+    {
+      "id": "w1777559530461",
+      "fromNode": "n1777558832152_0ley",
+      "fromPort": "video",
+      "toNode": "n1777559523973_igem",
+      "toPort": "v1"
+    },
+    {
+      "id": "w1777559533908",
+      "fromNode": "n1777559052560_v4d8",
+      "fromPort": "video",
+      "toNode": "n1777559523973_igem",
+      "toPort": "v2"
+    },
+    {
+      "id": "w1777559536204",
+      "fromNode": "n1777559174729_vhal",
+      "fromPort": "video",
+      "toNode": "n1777559523973_igem",
+      "toPort": "v3"
+    },
+    {
+      "id": "w1777559544097",
+      "fromNode": "n1777559523973_igem",
+      "fromPort": "video",
+      "toNode": "n1777559538373_s41k",
+      "toPort": "input"
+    },
+    {
+      "id": "w1777777278479",
+      "fromNode": "n1777558812544_5ufm",
+      "fromPort": "img",
+      "toNode": "n1777777247341_eeby",
+      "toPort": "img2"
+    },
+    {
+      "id": "w1777777282224",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1777777247341_eeby",
+      "toPort": "img1"
+    },
+    {
+      "id": "w1777806578110",
+      "fromNode": "n1777558812544_5ufm",
+      "fromPort": "img",
+      "toNode": "n1777559109525_q0a9",
+      "toPort": "input"
+    }
+  ]
+}
