@@ -1,6 +1,6 @@
 {
   "name": "review thời trang trẻ em",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "storeId": "review_thoi_trang_tre_em",
   "nodes": [
     {
@@ -78,7 +78,7 @@
       "x": -276.8998594335692,
       "y": -508.93540690986543,
       "data": {
-        "path": "C:\\Users\\admin\\OneDrive\\TIK TOK ALL\\NEXUS AI STUDIO\\tay_thả_lỏng_202604192107.png",
+        "path": "",
         "simpleView": {
           "enabled": true,
           "label": "Người mẫu",

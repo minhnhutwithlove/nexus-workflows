@@ -2,10 +2,10 @@
   {
     "id": "review_thoi_trang_tre_em",
     "name": "review thời trang trẻ em",
-    "description": "Thời trang trẻ em dạng người mẫu nữ cầm sản phẩm review\nAI tạo kịch bản , VEO3 , 3CLIP",
-    "version": "1.0.1",
+    "description": "Thời trang trẻ em dạng người mẫu nữ cẩm sản phẩm review Al tạo kịch bản, VEO3, 3CLIP",
+    "version": "1.0.2",
     "tags": [
-      "Review"
+      "review thời trang trẻ em"
     ]
   }
 ]
