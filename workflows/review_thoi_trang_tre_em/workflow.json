@@ -1,6 +1,6 @@
 {
   "name": "review thời trang trẻ em",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "storeId": "review_thoi_trang_tre_em",
   "nodes": [
     {
@@ -43,21 +43,12 @@
       }
     },
     {
-      "id": "n1777559131138_e10m",
-      "type": "prompt",
-      "x": 1046.3599990237244,
-      "y": 253.69811174710577,
-      "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_story.clips[1].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_story.clips[1].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư."
-      }
-    },
-    {
       "id": "n1777559152421_q87m",
       "type": "prompt",
       "x": 1053.4792265353608,
       "y": 552.2537703341659,
       "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_story.clips[2].visual_prompt}}\n\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang phục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động tương tác được mô tả để đồng bộ với lời thoại. Bố cục khung hình sạch hoàn toàn, không có bất kỳ yếu tố đồ họa nào chèn lên).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_story.clips[2].dialogue}}\"\n\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn với lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n\nGiới tính: Nữ, 22 tuổi\n\nVùng miền: Giọng Miền Nam tự nhiên, gần gũi\n\nTông giọng: Ấm áp, hồ hởi, tươi vui\n\nTốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI (NEGATIVE PROMPTS):\n\nKHÔNG CHỮ (NO TEXT): Tuyệt đối không hiển thị văn bản, chữ viết, phụ đề, caption hay watermark dưới mọi hình thức.\n\nKHÔNG GIAO DIỆN (NO UI/OVERLAYS): Không có lớp phủ đồ họa, không giỏ hàng, không nút bấm, không các icon TikTok hay thanh tiến trình.\n\nKHÔNG THẢ MÓC: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, bộ trang phục trên móc hiển thị rõ ràng, không bị che khuất.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên.\n\nChuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). Móc áo giữ ổn định, không lắc lư. Khung hình chuẩn Cinematic Realistic, không nhiễu hạt."
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[2].visual_prompt}}\n\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang phục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động tương tác được mô tả để đồng bộ với lời thoại. Bố cục khung hình sạch hoàn toàn, không có bất kỳ yếu tố đồ họa nào chèn lên).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[2].dialogue}}\"\n\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn với lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n\nGiới tính: Nữ, 22 tuổi\n\nVùng miền: Giọng Miền Nam tự nhiên, gần gũi\n\nTông giọng: Ấm áp, hồ hởi, tươi vui\n\nTốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI (NEGATIVE PROMPTS):\n\nKHÔNG CHỮ (NO TEXT): Tuyệt đối không hiển thị văn bản, chữ viết, phụ đề, caption hay watermark dưới mọi hình thức.\n\nKHÔNG GIAO DIỆN (NO UI/OVERLAYS): Không có lớp phủ đồ họa, không giỏ hàng, không nút bấm, không các icon TikTok hay thanh tiến trình.\n\nKHÔNG THẢ MÓC: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, bộ trang phục trên móc hiển thị rõ ràng, không bị che khuất.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên.\n\nChuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). Móc áo giữ ổn định, không lắc lư. Khung hình chuẩn Cinematic Realistic, không nhiễu hạt."
       }
     },
     {
@@ -89,7 +80,7 @@
       "x": 1048.5865152331216,
       "y": -25.437954207075858,
       "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_story.clips[0].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_story.clips[0].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư.",
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[0].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[0].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư.",
         "simpleView": {
           "enabled": false,
           "label": "adasda",
@@ -141,27 +132,7 @@
       "x": 24.99123252083811,
       "y": -177.49510025802138,
       "data": {
-        "text": "Using Image 1 as the model reference and Image 2 as the product reference:\n\nReplace ALL clothing with the exact outfit shown in Image 2, applied consistently across three areas:\n\nThe outfit worn by the model: Scaled to adult size, maintaining the exact design, fabric, and color from Image 2.\n\nThe clothing on the hanger she is holding: The exact children's size and design from Image 2.\n\nThe background: An indoor clothing boutique with wooden shelving units. Crucially, all dresses hanging on the racks must be the exact same small children's size as shown in Image 2, neatly arranged, creating a uniform look.\n\nTechnical Requirements:\n\nConsistency: No variations in size on the background racks; every piece must look identical to the child-sized product in Image 2.\n\nModel Integrity: Keep the model's face, hair, pose, and skin tone exactly the same as Image 1.\n\nEnvironment: No text, no brand signs, no logos anywhere.\n\nLighting: Soft neutral daylight, clean white balance, no yellow or amber tint, high clarity, true-to-life colors.\n\nComposition: Full body shot, model standing."
-      }
-    },
-    {
-      "id": "n1777558612845_mizu",
-      "type": "ai-analyze",
-      "x": 145.92207335091206,
-      "y": 385.96948876182216,
-      "data": {
-        "gemsUrl": "https://gemini.google.com/gem/1uL22QoSmRmnm8yM67hzvuvbBI-I2S54z?usp=sharing",
-        "useProductUrl": true,
-        "productUrl": "",
-        "scenario": "Task ID: {{batch_name}}\nLink sản phẩm: {{product_url}}",
-        "jsonSample": "{\n  \"id\": \"\",\n  \"product\": {\n    \"name\": \"\",\n    \"cart_name\": \"\"\n  },\n  \"video_story\": {\n    \"clip_count\": 0,\n    \"clips\": [\n      {\n        \"visual_prompt\": \"\",\n        \"dialogue\": \"\"\n      },\n      {\n        \"visual_prompt\": \"\",\n        \"dialogue\": \"\"\n      },\n      {\n        \"visual_prompt\": \"\",\n        \"dialogue\": \"\"\n      }\n    ]\n  },\n  \"hashtags\": \"\"\n}",
-        "profileId": "__auto__",
-        "simpleView": {
-          "enabled": true,
-          "label": "Link sản phẩm",
-          "field": "productUrl",
-          "order": 3
-        }
+        "text": "Using Image 1 as the model reference and Image 2 as the product reference:\n\n1. Model Integrity: Keep the model's face, hair, pose, skin tone, and the exact clothing she is currently wearing from Image 1. Do not change her outfit.\n\n2. Product Replacement (Hanger): Replace only the clothing on the hanger she is holding with the exact product shown in Image 2, maintaining its original design, color, and size.\n\n3. Background Transformation: Change the background to a minimalist boutique with light-toned wood grain walls and built-in wooden shelving units. The background must feature several rows of hanging rods, all filled with the exact same product from Image 2. Ensure the display is neatly organized, layered, and uniform, matching the professional shop aesthetic in Image 2.\n\n4. Technical Requirements:\n\nConsistency: Every piece on the background racks must be a consistent match to the product in Image 2.\n\nEnvironment: No text, no brand signs, no logos anywhere.\n\nLighting: Soft neutral daylight, clean white balance, high clarity, true-to-life colors.\n\nComposition: Full body shot, model standing."
       }
     },
     {
@@ -171,7 +142,7 @@
       "y": 393,
       "data": {
         "profileId": "",
-        "captionTemplate": "{{product.name}} {{hashtags}}",
+        "captionTemplate": "{{product.viral_caption}} {{hashtags}}",
         "useMusic": true,
         "cartName": "{{product.cart_name}}",
         "productId": "{{product_id}}"
@@ -189,6 +160,35 @@
           "label": "Người mẫu",
           "field": "path",
           "order": 1
+        }
+      }
+    },
+    {
+      "id": "n1777559131138_e10m",
+      "type": "prompt",
+      "x": 1046.9955171021293,
+      "y": 253.69811174710577,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[1].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[1].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư."
+      }
+    },
+    {
+      "id": "n1777558612845_mizu",
+      "type": "ai-analyze",
+      "x": 119.42272464120771,
+      "y": 405.1357866811932,
+      "data": {
+        "gemsUrl": "https://gemini.google.com/gem/1uL22QoSmRmnm8yM67hzvuvbBI-I2S54z?usp=sharing",
+        "useProductUrl": true,
+        "productUrl": "",
+        "scenario": "Hãy tạo kịch bản bán hàng và trả kết quả ở dạng json\nLink sản phẩm: {{product_url}}",
+        "jsonSample": "{\n  \"product\": {\n    \"viral_caption\": \"\",\n    \"cart_name\": \"\"\n  },\n  \"video_script\": [\n    {\n      \"visual_prompt\": \"\",\n      \"dialogue\": \"\"\n    },\n    {\n      \"visual_prompt\": \"\",\n      \"dialogue\": \"\"\n    },\n    {\n      \"visual_prompt\": \"\",\n      \"dialogue\": \"\"\n    }\n  ],\n  \"hashtags\": \"\"\n}",
+        "profileId": "__auto__",
+        "simpleView": {
+          "enabled": true,
+          "label": "Link sản phẩm",
+          "field": "productUrl",
+          "order": 3
         }
       }
     }
