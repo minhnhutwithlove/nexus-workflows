@@ -191,16 +191,6 @@
           "order": 1
         }
       }
-    },
-    {
-      "id": "n1778564767214_z10t",
-      "type": "kho-img",
-      "x": -620,
-      "y": -260,
-      "data": {
-        "folder": "",
-        "order": "sequential"
-      }
     }
   ],
   "wires": [
@@ -329,13 +319,6 @@
       "fromPort": "output",
       "toNode": "n1778281087322_6hfu",
       "toPort": "video"
-    },
-    {
-      "id": "w1778564818659",
-      "fromNode": "n1778564767214_z10t",
-      "fromPort": "img",
-      "toNode": "n1777558812544_5ufm",
-      "toPort": "ref3"
     }
   ]
 }
