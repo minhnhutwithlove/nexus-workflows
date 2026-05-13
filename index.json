@@ -9,5 +9,16 @@
       "VEO3",
       "3CLIP"
     ]
+  },
+  {
+    "id": "review_thoi_trang_nu",
+    "name": "review thời trang nữ",
+    "description": "",
+    "version": "1.0.0",
+    "tags": [
+      "review",
+      "thời trang nữ",
+      "auto upload"
+    ]
   }
 ]
