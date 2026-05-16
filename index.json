@@ -26,12 +26,12 @@
     "id": "review-thoi-trang-tre-em",
     "name": "review thời trang trẻ em",
     "description": "Thời trang trẻ em dạng người mẫu nữ cẩm sản phẩm review",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "tags": [
       "Al tạo kịch bản",
       "VEO3",
       "3CLIP"
     ],
-    "sha256": "bb6acf051d6f7bb0d2229430c22e14a0ce210443773f5fbc2ffe4946a95e005a"
+    "sha256": "4186d8fc94a7fa12867bd65cfd3f2932ffa12f278d9e217ccb89edf487239ed6"
   }
 ]
