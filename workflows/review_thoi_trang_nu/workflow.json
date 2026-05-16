@@ -57,21 +57,6 @@
       "data": {}
     },
     {
-      "id": "n1777558847811_m7o7",
-      "type": "prompt",
-      "x": 1048.5865152331216,
-      "y": -25.437954207075858,
-      "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[0].visual_prompt}}\n\nLỜI THOẠI: {{video_script[0].dialogue}}\n\nGIỌNG NÓI (NĂNG LƯỢNG CAO):\n\nGiới tính/Tuổi: Nữ, khoảng 22 tuổi.\n\nVùng miền: Tiếng Việt (Giọng Miền Nam trẻ trung).\n\nTông giọng: Hào hứng, năng động, phong cách livestream chuyên nghiệp.\n\nTốc độ: Nói nhanh, dứt khoát, nhịp điệu dồn dập, tròn vành rõ chữ.\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n\nKhông Chữ (No Text): Tuyệt đối không có bất kỳ văn bản, phụ đề hay watermark nào.\n\nKhông Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon mạng xã hội.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Tập trung làm rõ kết cấu bề mặt vải (fabric texture) và chi tiết da (skin detail) để tạo cảm giác chân thực nhất.",
-        "simpleView": {
-          "enabled": false,
-          "label": "adasda",
-          "field": "text",
-          "order": 3
-        }
-      }
-    },
-    {
       "id": "n1777558689610_h3nx",
       "type": "ref-img",
       "x": -314.3443250643483,
@@ -190,6 +175,21 @@
           "label": "Người mẫu",
           "field": "path",
           "order": 1
+        }
+      }
+    },
+    {
+      "id": "n1777558847811_m7o7",
+      "type": "prompt",
+      "x": 1048.5865152331216,
+      "y": -26.437954207075858,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[0].visual_prompt}}\n\nLỜI THOẠI: {{video_script[0].dialogue}}\n\nGIỌNG NÓI (NĂNG LƯỢNG CAO):\n\nGiới tính/Tuổi: Nữ, khoảng 22 tuổi.\n\nVùng miền: Tiếng Việt (Giọng Miền Nam trẻ trung).\n\nTông giọng: Hào hứng, năng động, phong cách livestream chuyên nghiệp.\n\nTốc độ: Nói nhanh, dứt khoát, nhịp điệu dồn dập, tròn vành rõ chữ.\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n\nKhông Chữ (No Text): Tuyệt đối không có bất kỳ văn bản, phụ đề hay watermark nào.\n\nKhông Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon mạng xã hội.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Tập trung làm rõ kết cấu bề mặt vải (fabric texture) và chi tiết da (skin detail) để tạo cảm giác chân thực nhất.",
+        "simpleView": {
+          "enabled": false,
+          "label": "adasda",
+          "field": "text",
+          "order": 3
         }
       }
     }
