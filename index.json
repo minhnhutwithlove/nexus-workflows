@@ -1,17 +1,5 @@
 [
   {
-    "id": "review_thoi_trang_nu",
-    "name": "review thời trang nữ",
-    "description": "",
-    "version": "1.0.0",
-    "tags": [
-      "review",
-      "thời trang nữ",
-      "VEO3",
-      "auto upload"
-    ]
-  },
-  {
     "id": "review-thoi-trang-tre-em",
     "name": "review thời trang trẻ em",
     "description": "Thời trang trẻ em dạng người mẫu nữ cẩm sản phẩm review",
