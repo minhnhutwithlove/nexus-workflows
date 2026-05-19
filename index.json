@@ -22,5 +22,18 @@
       "3CLIP"
     ],
     "sha256": "19e96dcc1cbec951387bed97248d5083786da66654f488923fe6d22496675524"
+  },
+  {
+    "id": "review-thoi-trang-nu",
+    "name": "review thời trang nữ",
+    "description": "",
+    "version": "1.0.1",
+    "tags": [
+      "review",
+      "thời trang nữ",
+      "VEO3",
+      "auto upload"
+    ],
+    "sha256": "93470de10d4e738a8adb376fe305447aaa5ec17f8f3009efca25ac3ed630682d"
   }
 ]
