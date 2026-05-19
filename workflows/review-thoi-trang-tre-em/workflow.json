@@ -1,6 +1,6 @@
 {
   "name": "review thời trang trẻ em",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "storeId": "review-thoi-trang-tre-em",
   "nodes": [
     {
@@ -87,16 +87,6 @@
       }
     },
     {
-      "id": "n1777777247341_eeby",
-      "type": "compare",
-      "x": 671.4234052358065,
-      "y": 52.12825041818016,
-      "data": {
-        "label1": "Trang phục gốc",
-        "label2": "Kết quả"
-      }
-    },
-    {
       "id": "n1777558812544_5ufm",
       "type": "create-img",
       "x": 328.3217009726624,
@@ -115,19 +105,6 @@
       "y": -177.49510025802138,
       "data": {
         "text": "Using Image 1 as the model reference and Image 2 as the product reference:\n\n1. Model Integrity: Keep the model's face, hair, pose, and skin tone from Image 1. Change her clothing to: {{model_outfit_prompt}}. Ensure the new outfit fits her naturally and matches the overall aesthetic.\n\n2. Product Replacement (Hanger): Replace only the clothing on the hanger she is holding with the exact product shown in Image 2, maintaining its original design, color, and size.\n\n3. Background Transformation: Change the background to a minimalist boutique with light-toned wood grain walls and built-in wooden shelving units. The background must feature several rows of hanging rods, all filled with the exact same product from Image 2. Ensure the display is neatly organized, layered, and uniform, matching the professional shop aesthetic in Image 2.\n\n4. Technical Requirements:\n\nConsistency: Every piece on the background racks must be a consistent match to the product in Image 2.\n\nEnvironment: No text, no brand signs, no logos anywhere.\n\nLighting: Soft neutral daylight, clean white balance, high clarity, true-to-life colors.\n\nComposition: Full body shot, model standing."
-      }
-    },
-    {
-      "id": "n1778281087322_6hfu",
-      "type": "post-tiktok",
-      "x": 2427,
-      "y": 393,
-      "data": {
-        "profileId": "",
-        "captionTemplate": "{{product.viral_caption}} {{hashtags}}",
-        "useMusic": false,
-        "cartName": "{{product.cart_name}}",
-        "productId": "{{product_id}}"
       }
     },
     {
@@ -191,6 +168,28 @@
       "y": 553.2537703341659,
       "data": {
         "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[2].visual_prompt}}\n\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang phục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động tương tác được mô tả để đồng bộ với lời thoại. Bố cục khung hình sạch hoàn toàn, không có bất kỳ yếu tố đồ họa nào chèn lên).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[2].dialogue}}\" (NO TEXT, NO OVERLAYS, NO CAPTIONS, NO WATERMARKS, NO GRAPHIC ELEMENTS)\n\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn với lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n\nGiới tính: Nữ, 22 tuổi\n\nVùng miền: Giọng Miền Nam tự nhiên, gần gũi\n\nTông giọng: Ấm áp, hồ hởi, tươi vui\n\nTốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI (NEGATIVE PROMPTS):\n\nKHÔNG CHỮ (NO TEXT): Tuyệt đối không hiển thị văn bản, chữ viết, phụ đề, caption hay watermark dưới mọi hình thức.\n\nKHÔNG GIAO DIỆN (NO UI/OVERLAYS): Không có lớp phủ đồ họa, không giỏ hàng, không nút bấm, không các icon TikTok hay thanh tiến trình.\n\nKHÔNG THẢ MÓC: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, bộ trang phục trên móc hiển thị rõ ràng, không bị che khuất.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên.\n\nChuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). Móc áo giữ ổn định, không lắc lư. Khung hình chuẩn Cinematic Realistic, không nhiễu hạt."
+      }
+    },
+    {
+      "id": "n1778281087322_6hfu",
+      "type": "post-tiktok",
+      "x": 2427,
+      "y": 393,
+      "data": {
+        "profileId": "",
+        "captionTemplate": "{{product.viral_caption}} {{hashtags}}",
+        "useMusic": false,
+        "cartName": "{{product.cart_name}}",
+        "productId": "{{product_id}}"
+      }
+    },
+    {
+      "id": "n1779112033808_5c0x",
+      "type": "compare",
+      "x": 191.74581239067052,
+      "y": 226.77721486880466,
+      "data": {
+        "label2": "Sản phẩm"
       }
     }
   ],
@@ -294,13 +293,6 @@
       "toPort": "input"
     },
     {
-      "id": "w1777777278479",
-      "fromNode": "n1777558812544_5ufm",
-      "fromPort": "img",
-      "toNode": "n1777777247341_eeby",
-      "toPort": "img2"
-    },
-    {
       "id": "w1777806578110",
       "fromNode": "n1777558812544_5ufm",
       "fromPort": "img",
@@ -308,18 +300,18 @@
       "toPort": "input"
     },
     {
-      "id": "w1778250634664",
-      "fromNode": "n1777558689610_h3nx",
-      "fromPort": "img",
-      "toNode": "n1777777247341_eeby",
-      "toPort": "img1"
-    },
-    {
       "id": "w1778281094028",
       "fromNode": "n1777559538373_s41k",
       "fromPort": "output",
       "toNode": "n1778281087322_6hfu",
       "toPort": "video"
+    },
+    {
+      "id": "w1779112038471",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1779112033808_5c0x",
+      "toPort": "img1"
     }
   ]
 }
