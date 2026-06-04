@@ -1,6 +1,6 @@
 {
   "name": "review thời trang trẻ em",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "storeId": "review-thoi-trang-tre-em",
   "nodes": [
     {
@@ -51,7 +51,7 @@
       "x": -314.3443250643483,
       "y": 142.51191325989174,
       "data": {
-        "path": "https://raw.githubusercontent.com/minhnhutwithlove/nexus-workflows/master/workflows/review-thoi-trang-tre-em/assets/photo_2026-05-30_05-49-53.jpg",
+        "path": "",
         "simpleView": {
           "enabled": true,
           "label": "Trang phục cần bán",
