@@ -4,12 +4,12 @@
     "name": "review thời trang trẻ em",
     "author": "admin",
     "description": "Tạo video review thời trang trẻ em , hỗ trợ upload video",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "tags": [
       "Review",
       "Thời trang trẻ em"
     ],
-    "sha256": "293bc0b6c32f88152365d9c045e1ab5f792e520da6e397e38600808100fc82cd",
+    "sha256": "fb6d9c1ab207a7a0bca4f9566569dccdb8fbe84514daeca32b3dd4956371347a",
     "official": true
   },
   {
