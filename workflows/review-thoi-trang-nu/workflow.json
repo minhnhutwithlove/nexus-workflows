@@ -1,6 +1,6 @@
 {
   "name": "review thời trang nữ",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "storeId": "review-thoi-trang-nu",
   "nodes": [
     {
@@ -159,7 +159,7 @@
       "x": -313.71190389421054,
       "y": -176.91026113727068,
       "data": {
-        "path": "",
+        "path": "https://raw.githubusercontent.com/minhnhutwithlove/nexus-workflows/master/workflows/review-thoi-trang-nu/assets/@thaovyreview.jpg",
         "simpleView": {
           "enabled": true,
           "label": "Người mẫu",

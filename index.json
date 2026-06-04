@@ -15,14 +15,16 @@
   {
     "id": "review-thoi-trang-nu",
     "name": "review thời trang nữ",
-    "description": "",
-    "version": "1.0.1",
+    "author": "Minh Nhựt",
+    "description": "Tạo video review sản phẩm với lời thoại bán hàng ,hỗ trợ upload video",
+    "version": "1.0.2",
     "tags": [
       "review",
       "thời trang nữ",
       "VEO3",
       "auto upload"
     ],
-    "sha256": "93470de10d4e738a8adb376fe305447aaa5ec17f8f3009efca25ac3ed630682d"
+    "sha256": "b29d34fc5e20c4bf75dac4c9aba703fb637111b745332e53c98c1b46c20658d6",
+    "official": true
   }
 ]
