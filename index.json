@@ -2,14 +2,15 @@
   {
     "id": "review-thoi-trang-tre-em",
     "name": "review thời trang trẻ em",
-    "description": "Thời trang trẻ em dạng người mẫu nữ cẩm sản phẩm review",
-    "version": "1.0.7",
+    "author": "Minh nhựt",
+    "description": "test share kịch bản",
+    "version": "1.0.0",
     "tags": [
-      "Al tạo kịch bản",
-      "VEO3",
-      "3CLIP"
+      "hot",
+      "automation"
     ],
-    "sha256": "19e96dcc1cbec951387bed97248d5083786da66654f488923fe6d22496675524"
+    "sha256": "9891a5f32a4c8f454b69d5483499ded4bd4416c0eae86365958ea891ef131802",
+    "official": false
   },
   {
     "id": "review-thoi-trang-nu",
