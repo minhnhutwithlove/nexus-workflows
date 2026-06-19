@@ -26,5 +26,18 @@
     ],
     "sha256": "67498df805617e9db69035b2f3e2cb4a7c1c8ee170a18016e075ccb2eb899887",
     "official": true
+  },
+  {
+    "id": "thoi-trang-tre-em-rvmct",
+    "name": "Thời trang trẻ em RVMCT",
+    "author": "Minh Nhựt",
+    "description": "Đầu vào 1 ảnh sản phẩm, có hỗ trợ upload",
+    "version": "1.0.0",
+    "tags": [
+      "review thời trang trẻ em",
+      "mẫu cần trên tay"
+    ],
+    "sha256": "89dacddd9685357ec7ebdc03209c962e60b24031764531cb53fd14c9e7b7b7ae",
+    "official": true
   }
 ]

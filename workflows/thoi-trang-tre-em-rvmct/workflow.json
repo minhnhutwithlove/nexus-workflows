@@ -1,0 +1,315 @@
+{
+  "name": "Thời trang trẻ em RVMCT",
+  "version": "1.0.0",
+  "storeId": "thoi-trang-tre-em-rvmct",
+  "nodes": [
+    {
+      "id": "n1777558812544_5ufm",
+      "type": "create-img",
+      "x": 328.3217009726624,
+      "y": -179.72148138475737,
+      "data": {
+        "model": "Banana Pro",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "1K"
+      }
+    },
+    {
+      "id": "n1777558612845_mizu",
+      "type": "ai-analyze",
+      "x": 113.42272464120771,
+      "y": 239.13578668119322,
+      "data": {
+        "gemsUrl": "https://gemini.google.com/gem/1erCJ_fRWTT45bvzkpeEYvLU8XFFpDDwI?usp=sharing",
+        "useProductUrl": true,
+        "productUrl": "https://vt.tiktok.com/ZS9jqM76DB6E3-5emjL/",
+        "scenario": "Hãy tạo kịch bản bán hàng và trả kết quả ở dạng json\nLink sản phẩm: {{product_url}}",
+        "jsonSample": "{\n  \"product\": {\n    \"viral_caption\": \"\",\n    \"cart_name\": \"\"\n  },\n\n  \"video_script\": [\n    {\n      \"clip\": 1,\n      \"concept\": \"The Hook — Tay giơ móc, toàn bộ sản phẩm hiện ra\",\n      \"action\": \"\",\n      \"voiceover\": \"\"\n    },\n    {\n      \"clip\": 2,\n      \"concept\": \"The Body — Tay vuốt/sờ chất vải, cận chi tiết sản phẩm\",\n      \"action\": \"\",\n      \"voiceover\": \"\"\n    },\n    {\n      \"clip\": 3,\n      \"concept\": \"The CTA — Tay xoay móc khoe toàn bộ + kêu gọi mua hàng\",\n      \"action\": \"\",\n      \"voiceover\": \"\"\n    }\n  ],\n\n  \"hashtags\": \"\"\n}",
+        "profileId": "__auto__",
+        "simpleView": {
+          "enabled": true,
+          "label": "Link sản phẩm",
+          "field": "productUrl",
+          "order": 3
+        }
+      }
+    },
+    {
+      "id": "n1777558832152_0ley",
+      "type": "create-vid",
+      "x": 1389.9907528352776,
+      "y": 68.6088315666704,
+      "data": {
+        "model": "Veo 3.1 - Lite",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s",
+        "refCount": "1"
+      }
+    },
+    {
+      "id": "n1777559052560_v4d8",
+      "type": "create-vid",
+      "x": 1391.096363048748,
+      "y": 404.6844353890151,
+      "data": {
+        "model": "Veo 3.1 - Lite",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s",
+        "refCount": "1"
+      }
+    },
+    {
+      "id": "n1777559174729_vhal",
+      "type": "create-vid",
+      "x": 1387.518129362782,
+      "y": 768.6634500172355,
+      "data": {
+        "model": "Veo 3.1 - Lite",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s",
+        "refCount": "1"
+      }
+    },
+    {
+      "id": "n1777559152421_q87m",
+      "type": "prompt",
+      "x": 1051.3301665703464,
+      "y": 624.407761657781,
+      "data": {
+        "text": "CLIP 3 — The CTA\nHÀNH ĐỘNG: {{video_script[2].action}}\n(Lưu ý: Tay từ từ đưa sản phẩm gần ống kính hơn như đang mời người xem,\nsau đó lắc nhẹ trái phải. Chỉ thấy tay — không có mặt, không có người.\nKHÔNG xoay, KHÔNG lật, KHÔNG để lộ mặt sau sản phẩm.)\n\nVOICEOVER (LỒNG TIẾNG): \"{{video_script[2].voiceover}}\"\n(Lưu ý: Đây là giọng lồng tiếng có CTA. Không cần khớp môi.\nTuyệt đối không hiển thị bất kỳ chữ hay đồ họa nào khi nhắc đến\ngóc trái màn hình.)\n\nGIỌNG NÓI:\n* Giới tính: Nữ, khoảng 25 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui, tạo cảm giác thúc đẩy nhẹ\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không có mặt người, đầu người, toàn thân người trong frame\n* Không chữ, không phụ đề, không watermark, không đồ họa bất kỳ\n* Không giao diện: không giỏ hàng, không nút bấm, không icon\n* Không xoay / lật / để lộ mặt sau sản phẩm\n* Không thả móc: giữ nguyên tay cầm móc trong suốt clip,\n  sản phẩm hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG:\n* Làm rõ kết cấu vải, họa tiết, màu sắc trung thực\n* Chuyển động mượt mà, ổn định, tay không bị biến dạng\n* Móc áo giữ ổn định, không lắc lư\n* Ánh sáng: tự nhiên, trắng sạch, tôn màu sản phẩm"
+      }
+    },
+    {
+      "id": "n1777559131138_e10m",
+      "type": "prompt",
+      "x": 1049.9948328572311,
+      "y": 261.6526392573099,
+      "data": {
+        "text": "CLIP 2 — The Body\nHÀNH ĐỘNG: {{video_script[1].action}}\n(Lưu ý: Tay tự do vuốt nhẹ hoặc sờ chất vải, cận chi tiết mặt trước.\nTay cầm móc vẫn giữ cố định. Chỉ thấy tay — không có mặt, không có người.\nKHÔNG xoay, KHÔNG lật, KHÔNG để lộ mặt sau sản phẩm.)\n\nVOICEOVER (LỒNG TIẾNG): \"{{video_script[1].voiceover}}\"\n(Lưu ý: Đây là giọng lồng tiếng, tiếp nối tự nhiên từ Clip 1.\nKhông cần khớp môi.)\n\nGIỌNG NÓI:\n* Giới tính: Nữ, khoảng 25 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không có mặt người, đầu người, toàn thân người trong frame\n* Không chữ, không phụ đề, không watermark, không đồ họa bất kỳ\n* Không giao diện: không giỏ hàng, không nút bấm, không icon\n* Không xoay / lật / để lộ mặt sau sản phẩm\n* Không thả móc: giữ nguyên tay cầm móc trong suốt clip,\n  sản phẩm hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG:\n* Ưu tiên làm rõ kết cấu vải, họa tiết cận cảnh, màu sắc trung thực\n* Chuyển động mượt mà, ổn định, tay không bị biến dạng\n* Móc áo giữ ổn định, không lắc lư\n* Ánh sáng: tự nhiên, trắng sạch, tôn màu sản phẩm"
+      }
+    },
+    {
+      "id": "n1777558847811_m7o7",
+      "type": "prompt",
+      "x": 1045.5871994780196,
+      "y": -75.24289412544319,
+      "data": {
+        "text": "CLIP 1 — The Hook\nHÀNH ĐỘNG: {{video_script[0].action}}\n(Lưu ý: Chỉ thấy tay và cổ tay — không có mặt, không có người.\nMặt trước sản phẩm phải hướng về camera trong suốt clip,\nKHÔNG xoay, KHÔNG lật, KHÔNG để lộ mặt sau sản phẩm.)\n\nVOICEOVER (LỒNG TIẾNG): \"{{video_script[0].voiceover}}\"\n(Lưu ý: Đây là giọng lồng tiếng, không phải nhân vật nói trực tiếp.\nKhông cần khớp môi.)\n\nGIỌNG NÓI:\n* Giới tính: Nữ, khoảng 25 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không có mặt người, đầu người, toàn thân người trong frame\n* Không chữ, không phụ đề, không watermark, không đồ họa bất kỳ\n* Không giao diện: không giỏ hàng, không nút bấm, không icon\n* Không xoay / lật / để lộ mặt sau sản phẩm\n* Không thả móc: giữ nguyên tay cầm móc trong suốt clip,\n  sản phẩm hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG:\n* Làm rõ kết cấu vải, họa tiết, màu sắc trung thực\n* Chuyển động mượt mà, ổn định, tay không bị biến dạng\n* Móc áo giữ ổn định, không lắc lư\n* Ánh sáng: tự nhiên, trắng sạch, tôn màu sản phẩm",
+        "simpleView": {
+          "enabled": false,
+          "label": "adasda",
+          "field": "text",
+          "order": 3
+        }
+      }
+    },
+    {
+      "id": "n1777559523973_igem",
+      "type": "merge-vid",
+      "x": 1935.8458770242946,
+      "y": 429.19715069612437,
+      "data": {
+        "effect": "Mờ dần",
+        "trimTail": 0
+      }
+    },
+    {
+      "id": "n1779112033808_5c0x",
+      "type": "compare",
+      "x": 222.3762123906705,
+      "y": 107.20678286880467,
+      "data": {
+        "label2": "Sản phẩm"
+      }
+    },
+    {
+      "id": "n1777558782991_88w1",
+      "type": "prompt",
+      "x": 10.262272520838167,
+      "y": -271.49510025802135,
+      "data": {
+        "text": "Using the provided image as the product reference:\n\n1. Product on Hanger: Display the exact product from the reference image \nhanging on a wooden hanger, held naturally by a single hand from above \n(only the hand and wrist visible, no face, no body). Preserve every detail \nof the product — original colors, pattern, design, and proportions — exactly \nas shown in the reference.\n\n2. Hand Style: The hand holding the hanger should have neat, natural nails \nwith a neutral or soft-toned manicure. Skin tone should appear natural and \nclean. No heavy jewelry unless minimal and tasteful.\n\n3. Background: A minimalist boutique interior with light-toned wood grain \nwalls and built-in wooden shelving units. The background must feature several \nrows of hanging rods, all filled with the exact same product from the \nreference image. Display must be neatly organized, layered, and uniform.\n\n4. Technical Requirements:\n- No text, no brand signs, no logos anywhere in the frame.\n- Lighting: Soft neutral daylight, clean white balance, high clarity, \n  true-to-life colors.\n- Composition: Product centered, slight upward angle as if being presented \n  to the viewer.\n- The product must not be altered, recolored, or stylized in any way."
+      }
+    },
+    {
+      "id": "n1778281087322_6hfu",
+      "type": "post-tiktok",
+      "x": 2558.452794288563,
+      "y": 425.85349257712556,
+      "data": {
+        "profileId": "",
+        "captionTemplate": "{{product.viral_caption}} {{hashtags}}",
+        "useMusic": false,
+        "cartName": "{{product.cart_name}}",
+        "productId": "{{product_id}}",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "n1781807301061_nm3a",
+      "type": "review",
+      "x": 751.5698248704,
+      "y": 262.91789690879995,
+      "data": {
+        "simpleView": {
+          "enabled": true,
+          "label": "Kiểm duyệt hình ảnh",
+          "field": "disabled",
+          "order": 4
+        },
+        "disabled": true
+      }
+    },
+    {
+      "id": "n1781807397925_9ba9",
+      "type": "review",
+      "x": 2284.3462728703994,
+      "y": 517.2098649088,
+      "data": {
+        "simpleView": {
+          "enabled": true,
+          "label": "KIỂM DUYỆT VIDEO",
+          "field": "disabled",
+          "order": 5
+        },
+        "disabled": true
+      }
+    },
+    {
+      "id": "n1777558689610_h3nx",
+      "type": "ref-img",
+      "x": -304.3443250643483,
+      "y": -89.48808674010826,
+      "data": {
+        "path": "https://raw.githubusercontent.com/minhnhutwithlove/nexus-workflows/master/workflows/thoi-trang-tre-em-rvmct/assets/20260618_162411_de4a_using_the_provided_image_as_th_r1.jpg",
+        "simpleView": {
+          "enabled": true,
+          "label": "Trang phục cần bán",
+          "field": "path",
+          "order": 2
+        }
+      }
+    }
+  ],
+  "wires": [
+    {
+      "id": "w1777558817114",
+      "fromNode": "n1777558782991_88w1",
+      "fromPort": "prompt",
+      "toNode": "n1777558812544_5ufm",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777558987468",
+      "fromNode": "n1777558847811_m7o7",
+      "fromPort": "prompt",
+      "toNode": "n1777558832152_0ley",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777559150196",
+      "fromNode": "n1777559131138_e10m",
+      "fromPort": "prompt",
+      "toNode": "n1777559052560_v4d8",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1777559179237",
+      "fromNode": "n1777559152421_q87m",
+      "fromPort": "prompt",
+      "toNode": "n1777559174729_vhal",
+      "toPort": "prompt"
+    },
+    {
+      "id": "w1780527260479",
+      "fromNode": "n1777558832152_0ley",
+      "fromPort": "video",
+      "toNode": "n1777559523973_igem",
+      "toPort": "v1"
+    },
+    {
+      "id": "w1780527271759",
+      "fromNode": "n1777559052560_v4d8",
+      "fromPort": "video",
+      "toNode": "n1777559523973_igem",
+      "toPort": "v2"
+    },
+    {
+      "id": "w1780527275503",
+      "fromNode": "n1777559174729_vhal",
+      "fromPort": "video",
+      "toNode": "n1777559523973_igem",
+      "toPort": "v3"
+    },
+    {
+      "id": "w1781445355413",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1777558612845_mizu",
+      "toPort": "img"
+    },
+    {
+      "id": "w1781445360797",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1779112033808_5c0x",
+      "toPort": "img1"
+    },
+    {
+      "id": "w1781445367822",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1777558812544_5ufm",
+      "toPort": "ref1"
+    },
+    {
+      "id": "w1781807311101",
+      "fromNode": "n1777558812544_5ufm",
+      "fromPort": "img",
+      "toNode": "n1781807301061_nm3a",
+      "toPort": "input"
+    },
+    {
+      "id": "w1781807328406",
+      "fromNode": "n1781807301061_nm3a",
+      "fromPort": "output",
+      "toNode": "n1777558832152_0ley",
+      "toPort": "imgStart"
+    },
+    {
+      "id": "w1781807339908",
+      "fromNode": "n1781807301061_nm3a",
+      "fromPort": "output",
+      "toNode": "n1777559052560_v4d8",
+      "toPort": "imgStart"
+    },
+    {
+      "id": "w1781807342516",
+      "fromNode": "n1781807301061_nm3a",
+      "fromPort": "output",
+      "toNode": "n1777559174729_vhal",
+      "toPort": "imgStart"
+    },
+    {
+      "id": "w1781807402588",
+      "fromNode": "n1777559523973_igem",
+      "fromPort": "video",
+      "toNode": "n1781807397925_9ba9",
+      "toPort": "input"
+    },
+    {
+      "id": "w1781807404860",
+      "fromNode": "n1781807397925_9ba9",
+      "fromPort": "output",
+      "toNode": "n1778281087322_6hfu",
+      "toPort": "video"
+    }
+  ]
+}
