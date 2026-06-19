@@ -2,14 +2,14 @@
   {
     "id": "review-thoi-trang-tre-em",
     "name": "review thời trang trẻ em",
-    "author": "admin",
+    "author": "Minh Nhựt",
     "description": "Tạo video review thời trang trẻ em , hỗ trợ upload video",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "tags": [
       "Review",
       "Thời trang trẻ em"
     ],
-    "sha256": "fb6d9c1ab207a7a0bca4f9566569dccdb8fbe84514daeca32b3dd4956371347a",
+    "sha256": "39d9436779725014a7f44ec674b0630ef23d4d3e2e323fad5ce4f226cc1b0e11",
     "official": true
   },
   {

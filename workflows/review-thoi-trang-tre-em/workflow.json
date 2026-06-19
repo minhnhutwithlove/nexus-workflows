@@ -1,65 +1,8 @@
 {
   "name": "review thời trang trẻ em",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "storeId": "review-thoi-trang-tre-em",
   "nodes": [
-    {
-      "id": "n1777559052560_v4d8",
-      "type": "create-vid",
-      "x": 1392.6683805674897,
-      "y": 351.8805092905145,
-      "data": {
-        "model": "Veo 3.1 - Fast",
-        "ratio": "9:16",
-        "count": "1",
-        "quality": "720p",
-        "duration": "8s"
-      }
-    },
-    {
-      "id": "n1777559109525_q0a9",
-      "type": "review",
-      "x": 669.1781526580204,
-      "y": 272.7672037729168,
-      "data": {}
-    },
-    {
-      "id": "n1777559538373_s41k",
-      "type": "review",
-      "x": 2166.710200537367,
-      "y": 395.2038520170851,
-      "data": {}
-    },
-    {
-      "id": "n1777558847811_m7o7",
-      "type": "prompt",
-      "x": 1048.5865152331216,
-      "y": -25.437954207075858,
-      "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[0].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[0].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư.",
-        "simpleView": {
-          "enabled": false,
-          "label": "adasda",
-          "field": "text",
-          "order": 3
-        }
-      }
-    },
-    {
-      "id": "n1777558689610_h3nx",
-      "type": "ref-img",
-      "x": -314.3443250643483,
-      "y": 142.51191325989174,
-      "data": {
-        "path": "",
-        "simpleView": {
-          "enabled": true,
-          "label": "Trang phục cần bán",
-          "field": "path",
-          "order": 2
-        }
-      }
-    },
     {
       "id": "n1777558812544_5ufm",
       "type": "create-img",
@@ -75,112 +18,21 @@
     {
       "id": "n1777558782991_88w1",
       "type": "prompt",
-      "x": 24.99123252083811,
-      "y": -177.49510025802138,
+      "x": 9.611359199383742,
+      "y": -302.34348369100394,
       "data": {
         "text": "Using Image 1 as the model reference and Image 2 as the product reference:\n\n1. Model Integrity: Keep the model's face, hair, pose, and skin tone from Image 1. Change her clothing to: {{model_outfit_prompt}}. Ensure the new outfit fits her naturally and matches the overall aesthetic.\n\n2. Product Replacement (Hanger): Replace only the clothing on the hanger she is holding with the exact product shown in Image 2, maintaining its original design, color, and size.\n\n3. Background Transformation: Change the background to a minimalist boutique with light-toned wood grain walls and built-in wooden shelving units. The background must feature several rows of hanging rods, all filled with the exact same product from Image 2. Ensure the display is neatly organized, layered, and uniform, matching the professional shop aesthetic in Image 2.\n\n4. Technical Requirements:\n\nConsistency: Every piece on the background racks must be a consistent match to the product in Image 2.\n\nEnvironment: No text, no brand signs, no logos anywhere.\n\nLighting: Soft neutral daylight, clean white balance, high clarity, true-to-life colors.\n\nComposition: Full body shot, model standing."
       }
     },
     {
-      "id": "n1777559131138_e10m",
-      "type": "prompt",
-      "x": 1046.9955171021293,
-      "y": 253.69811174710577,
-      "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[1].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[1].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư."
-      }
-    },
-    {
-      "id": "n1777559223650_ccvd",
-      "type": "ref-img",
-      "x": -313.71190389421054,
-      "y": -176.91026113727068,
-      "data": {
-        "path": "https://raw.githubusercontent.com/minhnhutwithlove/nexus-workflows/master/workflows/review-thoi-trang-tre-em/assets/mẫu thời trang trẻ em.jpeg",
-        "simpleView": {
-          "enabled": true,
-          "label": "Người mẫu",
-          "field": "path",
-          "order": 1
-        }
-      }
-    },
-    {
-      "id": "n1777559523973_igem",
-      "type": "merge-vid",
-      "x": 1878.773979402322,
-      "y": 392.7612658048514,
-      "data": {
-        "effect": "Nối thẳng",
-        "trimTail": 0.2
-      }
-    },
-    {
-      "id": "n1777559152421_q87m",
-      "type": "prompt",
-      "x": 1051.4792265353608,
-      "y": 553.2537703341659,
-      "data": {
-        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[2].visual_prompt}}\n\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang phục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động tương tác được mô tả để đồng bộ với lời thoại. Bố cục khung hình sạch hoàn toàn, không có bất kỳ yếu tố đồ họa nào chèn lên).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[2].dialogue}}\" (NO TEXT, NO OVERLAYS, NO CAPTIONS, NO WATERMARKS, NO GRAPHIC ELEMENTS)\n\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn với lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n\nGiới tính: Nữ, 22 tuổi\n\nVùng miền: Giọng Miền Nam tự nhiên, gần gũi\n\nTông giọng: Ấm áp, hồ hởi, tươi vui\n\nTốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI (NEGATIVE PROMPTS):\n\nKHÔNG CHỮ (NO TEXT): Tuyệt đối không hiển thị văn bản, chữ viết, phụ đề, caption hay watermark dưới mọi hình thức.\n\nKHÔNG GIAO DIỆN (NO UI/OVERLAYS): Không có lớp phủ đồ họa, không giỏ hàng, không nút bấm, không các icon TikTok hay thanh tiến trình.\n\nKHÔNG THẢ MÓC: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, bộ trang phục trên móc hiển thị rõ ràng, không bị che khuất.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên.\n\nChuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). Móc áo giữ ổn định, không lắc lư. Khung hình chuẩn Cinematic Realistic, không nhiễu hạt."
-      }
-    },
-    {
-      "id": "n1778281087322_6hfu",
-      "type": "post-tiktok",
-      "x": 2427,
-      "y": 393,
-      "data": {
-        "profileId": "",
-        "captionTemplate": "{{product.viral_caption}} {{hashtags}}",
-        "useMusic": false,
-        "cartName": "{{product.cart_name}}",
-        "productId": "{{product_id}}"
-      }
-    },
-    {
-      "id": "n1779112033808_5c0x",
-      "type": "compare",
-      "x": 191.74581239067052,
-      "y": 226.77721486880466,
-      "data": {
-        "label2": "Sản phẩm"
-      }
-    },
-    {
-      "id": "n1777558832152_0ley",
-      "type": "create-vid",
-      "x": 1388.1776443648484,
-      "y": 69.87986772348003,
-      "data": {
-        "model": "Veo 3.1 - Fast",
-        "ratio": "9:16",
-        "count": "1",
-        "quality": "720p",
-        "duration": "8s"
-      }
-    },
-    {
-      "id": "n1777559174729_vhal",
-      "type": "create-vid",
-      "x": 1394.4976431070552,
-      "y": 651.2034398652156,
-      "data": {
-        "model": "Veo 3.1 - Fast",
-        "ratio": "9:16",
-        "count": "1",
-        "quality": "720p",
-        "duration": "8s"
-      }
-    },
-    {
       "id": "n1777558612845_mizu",
       "type": "ai-analyze",
-      "x": 119.42272464120771,
-      "y": 405.1357866811932,
+      "x": -0.15635699144536375,
+      "y": 275.59178157915244,
       "data": {
         "gemsUrl": "https://gemini.google.com/gem/1uL22QoSmRmnm8yM67hzvuvbBI-I2S54z?usp=sharing",
         "useProductUrl": true,
-        "productUrl": "Nhập link sản phẩm của bạn vào đây để AI tạo kịch bản bán hàng",
+        "productUrl": "https://vt.tiktok.com/ZS92j1A6ortKw-QO5kB/",
         "scenario": "Hãy tạo kịch bản bán hàng và trả kết quả ở dạng json\nLink sản phẩm: {{product_url}}",
         "jsonSample": "{\n  \"product\": {\n    \"viral_caption\": \"\",\n    \"cart_name\": \"\"\n  },\n  \"video_script\": [\n    {\n      \"visual_prompt\": \"\",\n      \"dialogue\": \"\"\n    },\n    {\n      \"visual_prompt\": \"\",\n      \"dialogue\": \"\"\n    },\n    {\n      \"visual_prompt\": \"\",\n      \"dialogue\": \"\"\n    }\n  ],\n  \"hashtags\": \"\"\n}",
         "profileId": "__auto__",
@@ -191,16 +43,172 @@
           "order": 3
         }
       }
+    },
+    {
+      "id": "n1779112033808_5c0x",
+      "type": "compare",
+      "x": 100.63794067055392,
+      "y": 149.9049481049563,
+      "data": {
+        "label2": "Sản phẩm"
+      }
+    },
+    {
+      "id": "n1777558832152_0ley",
+      "type": "create-vid",
+      "x": 1354.0121924698049,
+      "y": -183.51390049809424,
+      "data": {
+        "model": "Veo 3.1 - Lite",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s"
+      }
+    },
+    {
+      "id": "n1777559052560_v4d8",
+      "type": "create-vid",
+      "x": 1354.2322471855657,
+      "y": 97.06318057331342,
+      "data": {
+        "model": "Veo 3.1 - Lite",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s"
+      }
+    },
+    {
+      "id": "n1777559174729_vhal",
+      "type": "create-vid",
+      "x": 1351.7908282382507,
+      "y": 379.3033852004927,
+      "data": {
+        "model": "Veo 3.1 - Lite",
+        "ratio": "9:16",
+        "count": "1",
+        "quality": "720p",
+        "duration": "8s"
+      }
+    },
+    {
+      "id": "n1777559152421_q87m",
+      "type": "prompt",
+      "x": 1032.972940092212,
+      "y": 237.22334030501145,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[2].visual_prompt}}\n\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang phục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động tương tác được mô tả để đồng bộ với lời thoại. Bố cục khung hình sạch hoàn toàn, không có bất kỳ yếu tố đồ họa nào chèn lên).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[2].dialogue}}\" (NO TEXT, NO OVERLAYS, NO CAPTIONS, NO WATERMARKS, NO GRAPHIC ELEMENTS)\n\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn với lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n\nGiới tính: Nữ, 22 tuổi\n\nVùng miền: Giọng Miền Nam tự nhiên, gần gũi\n\nTông giọng: Ấm áp, hồ hởi, tươi vui\n\nTốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI (NEGATIVE PROMPTS):\n\nKHÔNG CHỮ (NO TEXT): Tuyệt đối không hiển thị văn bản, chữ viết, phụ đề, caption hay watermark dưới mọi hình thức.\n\nKHÔNG GIAO DIỆN (NO UI/OVERLAYS): Không có lớp phủ đồ họa, không giỏ hàng, không nút bấm, không các icon TikTok hay thanh tiến trình.\n\nKHÔNG THẢ MÓC: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, bộ trang phục trên móc hiển thị rõ ràng, không bị che khuất.\n\nCHẤT LƯỢNG HÌNH ẢNH:\n\nChi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên.\n\nChuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). Móc áo giữ ổn định, không lắc lư. Khung hình chuẩn Cinematic Realistic, không nhiễu hạt."
+      }
+    },
+    {
+      "id": "n1777559131138_e10m",
+      "type": "prompt",
+      "x": 1028.4892306589807,
+      "y": -45.249592334526795,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[1].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[1].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư."
+      }
+    },
+    {
+      "id": "n1777558847811_m7o7",
+      "type": "prompt",
+      "x": 1028.656668294346,
+      "y": -327.23277927996213,
+      "data": {
+        "text": "HÀNH ĐỘNG CỦA NHÂN VẬT: {{video_script[0].visual_prompt}}\n(Lưu ý cho AI: Tay cầm móc treo áo bé phải giữ cố định, hiển thị rõ bộ trang \nphục trẻ em trên móc. Tay còn lại BẮT BUỘC thực hiện chính xác hành động \ntương tác được mô tả để đồng bộ với lời thoại).\n\nNHÂN VẬT NÓI TRỰC TIẾP (ON-CAMERA SPEECH): \"{{video_script[0].dialogue}}\"\n(Lưu ý cho AI: Nhân vật nói thẳng vào camera, môi chuyển động khớp hoàn toàn \nvới lời thoại, tự nhiên như đang livestream TikTok).\n\nGIỌNG NÓI:\n* Giới tính: Nữ, 22 tuổi\n* Vùng miền: Giọng Miền Nam tự nhiên, gần gũi\n* Tông giọng: Ấm áp, hồ hởi, tươi vui\n* Tốc độ: Hơi nhanh hơn bình thường, nhịp điệu linh hoạt lên xuống tự nhiên\n\nNGHIÊM CẤM TUYỆT ĐỐI:\n* Không Chữ (No Text): Không có bất kỳ văn bản, phụ đề hay watermark nào\n* Không Giao Diện (No UI): Không giỏ hàng, không nút bấm, không icon\n* Không Thả Móc: Giữ nguyên tư thế tay cầm móc treo áo bé trong suốt clip, \nbộ trang phục trên móc hiển thị rõ ràng, không bị che khuất\n\nCHẤT LƯỢNG HÌNH ẢNH:\n* Chi tiết: Làm rõ kết cấu vải (fabric texture), họa tiết in trên áo, da tự nhiên\n* Chuyển động: Mượt mà, ổn định. Tay tự do không bị biến dạng (morphing). \nMóc áo giữ ổn định, không lắc lư.",
+        "simpleView": {
+          "enabled": false,
+          "label": "adasda",
+          "field": "text",
+          "order": 3
+        }
+      }
+    },
+    {
+      "id": "n1777559109525_q0a9",
+      "type": "review",
+      "x": 691.9551205880496,
+      "y": -108.74700905507143,
+      "data": {
+        "simpleView": {
+          "enabled": true,
+          "label": "Kiểm duyệt hình ảnh",
+          "field": "disabled",
+          "order": 4
+        }
+      }
+    },
+    {
+      "id": "n1777559523973_igem",
+      "type": "merge-vid",
+      "x": 1811.8666361078615,
+      "y": 123.7083321313821,
+      "data": {
+        "effect": "Mờ dần",
+        "trimTail": 0.2
+      }
+    },
+    {
+      "id": "n1778281087322_6hfu",
+      "type": "post-tiktok",
+      "x": 2410.4639212827988,
+      "y": 125.79418731778432,
+      "data": {
+        "profileId": "",
+        "captionTemplate": "{{product.viral_caption}} {{hashtags}}",
+        "useMusic": false,
+        "cartName": "{{product.cart_name}}",
+        "productId": "{{product_id}}",
+        "aiGenerated": true
+      }
+    },
+    {
+      "id": "n1777559223650_ccvd",
+      "type": "ref-img",
+      "x": -301.9508242954513,
+      "y": -353.32645511865906,
+      "data": {
+        "path": "https://raw.githubusercontent.com/minhnhutwithlove/nexus-workflows/master/workflows/review-thoi-trang-tre-em/assets/tay_thả_lỏng_202604192107.png",
+        "simpleView": {
+          "enabled": true,
+          "label": "Người mẫu",
+          "field": "path",
+          "order": 1
+        }
+      }
+    },
+    {
+      "id": "n1777558689610_h3nx",
+      "type": "ref-img",
+      "x": -304.37940159496054,
+      "y": -55.362995632236476,
+      "data": {
+        "path": "",
+        "simpleView": {
+          "enabled": true,
+          "label": "Trang phục cần bán",
+          "field": "path",
+          "order": 2
+        }
+      }
+    },
+    {
+      "id": "n1781844574126_fip2",
+      "type": "review",
+      "x": 2159.0771649523726,
+      "y": 125.27332361516032,
+      "data": {
+        "simpleView": {
+          "enabled": true,
+          "label": "KIỂM DUYỆT VIDEO",
+          "field": "disabled",
+          "order": 5
+        }
+      }
     }
   ],
   "wires": [
-    {
-      "id": "w1777558694449",
-      "fromNode": "n1777558689610_h3nx",
-      "fromPort": "img",
-      "toNode": "n1777558612845_mizu",
-      "toPort": "img"
-    },
     {
       "id": "w1777558817114",
       "fromNode": "n1777558782991_88w1",
@@ -286,13 +294,6 @@
       "toPort": "v3"
     },
     {
-      "id": "w1777559544097",
-      "fromNode": "n1777559523973_igem",
-      "fromPort": "video",
-      "toNode": "n1777559538373_s41k",
-      "toPort": "input"
-    },
-    {
       "id": "w1777806578110",
       "fromNode": "n1777558812544_5ufm",
       "fromPort": "img",
@@ -300,18 +301,32 @@
       "toPort": "input"
     },
     {
-      "id": "w1778281094028",
-      "fromNode": "n1777559538373_s41k",
-      "fromPort": "output",
-      "toNode": "n1778281087322_6hfu",
-      "toPort": "video"
-    },
-    {
-      "id": "w1779112038471",
+      "id": "w1780702693240",
       "fromNode": "n1777558689610_h3nx",
       "fromPort": "img",
       "toNode": "n1779112033808_5c0x",
       "toPort": "img1"
+    },
+    {
+      "id": "w1780702697423",
+      "fromNode": "n1777558689610_h3nx",
+      "fromPort": "img",
+      "toNode": "n1777558612845_mizu",
+      "toPort": "img"
+    },
+    {
+      "id": "w1781844581237",
+      "fromNode": "n1777559523973_igem",
+      "fromPort": "video",
+      "toNode": "n1781844574126_fip2",
+      "toPort": "input"
+    },
+    {
+      "id": "w1781844583813",
+      "fromNode": "n1781844574126_fip2",
+      "fromPort": "output",
+      "toNode": "n1778281087322_6hfu",
+      "toPort": "video"
     }
   ]
 }
