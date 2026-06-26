@@ -32,12 +32,12 @@
     "name": "Thời trang trẻ em RVMCT",
     "author": "Minh Nhựt",
     "description": "Đầu vào 1 ảnh sản phẩm, có hỗ trợ upload",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "tags": [
       "review thời trang trẻ em",
       "mẫu cần trên tay"
     ],
-    "sha256": "89dacddd9685357ec7ebdc03209c962e60b24031764531cb53fd14c9e7b7b7ae",
+    "sha256": "00e92d9ef08900e29271bfbdbcb6dce2ae56fd2042663cf06bbfbf663a408352",
     "official": true
   }
 ]
